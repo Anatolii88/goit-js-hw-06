@@ -18,6 +18,6 @@ function increase() {
 }
 
 function decrease() { 
-  counterValue += 1
+  counterValue -= 1
   valueEl.textContent = counterValue
 }
